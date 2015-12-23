@@ -1,0 +1,27 @@
+{
+    "Home": "",
+    "About": {
+        "About us": "about-us",
+        "The committee": "committee",
+        "Documents": "documents",
+        "Open meeting minutes": "minutes",
+        "Committee reports": "reports"
+    },
+    "Welfare": {
+        "General welfare": "general-welfare",
+        "Men welfare": "men",
+        "Women welfare": "women",
+        "Ethnic minorities": "ethnic",
+        "Overseas students": "overseas",
+        "LGBT+": "lgbt"
+    },
+    "Newsletter": "newsletter",
+    "Societies": "societies",
+    "Prospective students": {
+        "Alternative prospectus": "alternative",
+        "Subject reps": "subject",
+        "Access events": "access"
+    }
+}
+
+

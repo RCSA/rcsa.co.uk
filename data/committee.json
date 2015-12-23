@@ -1,0 +1,122 @@
+{
+    "Chair": {
+        "name": "Kayani Kayani",
+        "email": "chair",
+        "photo": "chair",
+        "description": ["My role is to ensure that our voice as a college is heard at CUSU council as well as making sure that everyone is doing their job properly and people are working within and with the constitution. This year, I am working towards making sure the RCSA take a more active role in college, so that Binsonites (Ed: Binsonites or Robinsonians, the debate rages on) are engaged and involved with the decisions that affect them, both in and out of college. My favourite part of Robinson is the gardens and making the most of them in Summer."]
+    },
+    "President": {
+        "name": "Martha Krish",
+        "email": "president",
+        "photo": "president",
+        "description": ["My job entails coordinating, overseeing and supporting the work of the other RCSA Officers. I check that everything is running smoothly with all of the various projects the RCSA takes on and that the interests of all of Robinson's students are being represented. I sit on many committees in college, have weekly meetings with the Senior Tutor and represent Robinson (alongside the Chair) at CUSU Council meetings. I am particularly interested in supporting the improvement of Welfare provisions and implementing a Sexual Assault Policy in college during my time as President. I am also particularly interested in feminism, football and puns. I actually recently entered ten puns into a pun competition hoping one would win, but no pun in ten did..."]
+    },
+    "Vice President": {
+        "name": "Bavni Tulsiani",
+        "email": "vice-president",
+        "photo": "vice-president",
+        "description": ["During my time as Vice President I hope to strengthen the bond between the RCSA and the students of Robinson and remind everyone that we are your voice. One change I definitely think we want to see is creating links with local businesses to benefit all of Robinson students!"]
+    },
+    "Treasurer": {
+        "name": "Karl Thompson",
+        "email": "treasurer",
+        "photo": "treasurer",
+        "description": ["I'm the man when it comes to coin/cheddar/lettuce/moolah/dollar. I ensure that all the societies keep their spending within their budgets, as well as refunding spending from society budgets, organising reserves spending, and running the high-adrenaline Budget Meeting at the end of our financial year."]
+    },
+    "Secretary": {
+        "name": "Cat Somerville",
+        "email": "secretary",
+        "photo": "secretary",
+        "description": ["It's my job to help sort out the agenda and take the minutes for the open, welfare and executive meetings. I've also got some other exciting jobs like sorting the RCSA pigeon hole and notice board (yay). Most importantly, I'm the person you need to contact if you want to submit a motion for one of the open meetings, which take place three times a term. My favourite place in Cambridge is the Garden Restaurant (I'm always there) so feel free to ask me any questions you have if you bump into me there!"]
+    },
+    "Academic Affairs Officer": {
+        "name": "Amy Hall",
+        "email": "academic",
+        "photo": "academic",
+        "description": ["Lorem ipsum dolor sit ameti, consectetur adipiscing elit. Cras molestie quam ut lorem accumsan ullamcorper. Nulla ac nisl euismod, tristique erat in, bibendum lectus. Fusce posuere, lorem vitae blandit eleifend, elit ex aliquet nisl, quis elementum augue dolor at magna"]
+    },
+    "Welfare Officer": {
+        "name": "Gabrielle McGuinness",
+        "email": "welfare",
+        "photo": "welfare",
+        "description": ["As welfare officer, I will be looking after student health and wellbeing. This includes sexual health, for which I will hand out c-card packs weekly. My main focus will be to improve student mental health, through raising awareness by running discussion groups and putting on events during week 5 in particular to cheer everyone up. I want to make sure people know what provisions are available and then to improve them. Outside of my role, I love travelling, all things art, cafes and dogs. I'm a keen journalist and occasionally dabble in theatrical ventures!"]
+    },
+    "Catering and Amenities Officer": {
+        "name": "Claire Hemingway",
+        "email": "catering",
+        "photo": "catering",
+        "description": ["My role this year is to make living in college enjoyable for all. I deal with all things Catering - formals and Garden Restaurant meals, and Amenities in college, such as the Laundry room and bike stores. #wewantwaffles #laundryloving... Outside of my life on the Bake Off, I enjoy playing netball, running and have even started college rugby this year. When I'm not playing sport or actually trying to get a degree, I love finding the best coffee (and cake...) spots in Cambridge and working with youth at my church."]
+    },
+    "Sports and Societies Officer": {
+        "name": "Edward Butler-Caddle",
+        "email": "sport",
+        "photo": "sports",
+        "description": ["Sports and Societies are one of the most important parts of university life; you can try something new and meet new people, and more importantly they help you relax by taking your mind off work. I love trying something new whether it be rowing or bell ringing, real tennis or tap dancing! I therefore want to ensure that they are as enjoyable and as accessible as possible for everyone, by making certain that all societies have appropriate funding."]
+    },
+    "Access Officer": {
+        "name": "Emily Fishman",
+        "email": "access",
+        "photo": "access",
+        "description": ["My role is essential to helping Robinson increase its number of direct applicants, and helping disadvantaged candidates access Cambridge. I am also passionate about bridging the gender gap, especially in science subjects and helping provide support for state school applicants. In my spare time I love photography, all things arty, especially water colour painting. My favourite place in Cambridge is the red brick cafe but I also love hanging in the University Library - you can feel the book vibes!"]
+    },
+    "Ents Officer 1": {
+        "name": "Ben Morris",
+        "email": "ents",
+        "photo": "ents1",
+        "description": ["Ents. Inspiration. Pilot. Friend."]
+    },
+    "Ents Officer 2": {
+        "name": "Will Scott",
+        "email": "ents",
+        "photo": "ents2",
+        "description": ["Ents. Synergy. Cox. No Friends."]
+    },
+    "Green Officer": {
+        "name": "Patrick Lundgren",
+        "email": "green",
+        "photo": "green",
+        "description": ["As Green officer, I am passionate to promote energy conservation and student recycling in college, and we are currently in the planning of a \"Green week\" in Lent term, which will definitely be something to look forward to. I am also on the committee for the Cambridge Climate and Sustainability forum that's happening next term, and hope everyone can come! In my spare time I also enjoy playing basketball for the University, as well as the occasional college lacrosse and netball game."]
+    },
+    "Computer Officer": {
+        "name": "Dexter Chua",
+        "email": "computing",
+        "photo": "computing",
+        "description": ["Hi! I'm your computing officer. Despite what many people think, I am *not* a computer scientist. I'm a mathmo who happens to like computers as well. And physics. And astronomy. And philosophy. And everything. Anyway, feel free to send me all your rants about your computer not working or the wifi not functioning. I'll try to sort them out for you."]
+    },
+    "Women's Officer": {
+        "name": "Cammy Mitchell",
+        "email": "womens",
+        "photo": "women",
+        "description": ["I'm Cammy and I'm super excited to be Women's Officer! I'm here for any issues related to being a woman at Robinson; please feel free to come and talk to me at any time! For example, I will be pushing for a zero-tolerance policy for sexual assault and working on access for women in STEM. Apart from feminism, welfare and red bricks I love neuroscience, yoga, rowing (except at 6am in the rain) and surfing."]
+    },
+    "Men's Officer": {
+        "name": "Daniel Kent",
+        "email": "men",
+        "photo": "men",
+        "description": ["I'm a second year historian, I cox for Robinson boat club and I also captain the university pool team!! My aim for the men's role this year is to increase awareness of issues surrounding men's welfare and also increase access to welfare opportunities for men who would like to take part in welfare activities. I aim to run some male-specific welfare events throughout the year and also raise awareness of opportunities outside of college. I also want to represent Robinson at CUSU with the aim of increasing university-wide male welfare and in order to promote the issue beyond the college level."]
+    },
+    "Ethnic Minorities Officer": {
+        "name": "Sneha Barai",
+        "email": "diversity",
+        "photo": "diversity",
+        "description": ["Hey! I'm basically here to represent all the ethnic minority students in Robinson and help with their welfare. That includes things like holding drop-ins and organising social events that both ethnic minority and non-ethnic minority students can attend. I'm also in charge of the college fondue set so that's always fun! I like coffee, photography, music and the occasional yoga session in my free time (lol what free time) and I spend a lot of time in coffee shops."]
+    },
+    "Overseas Officer": {
+        "name": "Louise De Paepe",
+        "email": "overseas",
+        "photo": "overseas",
+        "description": ["I'm from Belgium but I've also lived in Switzerland and Singapore and I'm in my first year of Land Economy. My role is that of Overseas Officer meaning I represent the international students at Robinson, ensuring they're all having an amazing time, keeping them up to date with international-related events and trying to obtain more storage space. My hobbies include playing hockey, procrastinating in the red brick cafe and eating chocolate. So much chocolate"]
+    },
+    "LGBT+ Officer": {
+        "name": "Matt Kite",
+        "email": "lgbt",
+        "photo": "lgbt",
+        "description": ["I look after all exciting LGBT+ things happening in college whether that's the Rainbow Robinson bop in Lent (SO. HYPED!!) or my weekly drop ins/appointments or film nights. (looking for good ideas if you have any!) I like to sit in the bar, and bake things (not at the same time) so I'm always around for a chat if you want:) This year my main aims are to get a really strong LGBT+ community in college (because I want more friends) and get more people (including myself) more educated about transgender issues and being more inclusive to transgender people."]
+    },
+    "Newsletter Editor": {
+        "name": "Peter Curry",
+        "email": "newsletter",
+        "photo": "newsletter",
+        "description": ["Lorem ipsum dolor sit ameti, consectetur adipiscing elit. Cras molestie quam ut lorem accumsan ullamcorper. Nulla ac nisl euismod, tristique erat in, bibendum lectus. Fusce posuere, lorem vitae blandit eleifend, elit ex aliquet nisl, quis elementum augue dolor at magna"]
+    }
+}
