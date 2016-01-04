@@ -22,13 +22,13 @@ if ($json) {
             echo "<span class=\"list-group-item\">$date<br/>";
             foreach ($contents as $thing => $desc) {
                 if ($thing === "Minutes") {
-                    echo "<a href=\"files/meetings/minutes_$isodate.pdf\"><span class=\"glyphicon glyphicon-download\" aria-hidden=\"true\"></span> Minutes</a>&emsp;";
+                    echo "<a href=\"/files/meetings/minutes_$isodate.pdf\"><span class=\"glyphicon glyphicon-download\" aria-hidden=\"true\"></span> Minutes</a>&emsp;";
                 } else if ($thing === "Agenda") {
-                    echo "<a href=\"files/meetings/agenda_$isodate.pdf\"><span class=\"glyphicon glyphicon-download\" aria-hidden=\"true\"></span> Agenda</a>&emsp;";
+                    echo "<a href=\"/files/meetings/agenda_$isodate.pdf\"><span class=\"glyphicon glyphicon-download\" aria-hidden=\"true\"></span> Agenda</a>&emsp;";
                 } else if ($thing === "Comments") {
                     echo "($desc)";
                 } else {
-                    echo "<a href=\"files/meetings/$desc\"><span class=\"glyphicon glyphicon-download\" aria-hidden=\"true\"></span> $thing</a>&emsp;";
+                    echo "<a href=\"/files/meetings/$desc\"><span class=\"glyphicon glyphicon-download\" aria-hidden=\"true\"></span> $thing</a>&emsp;";
                 }
             }
             echo "</span>\n";
