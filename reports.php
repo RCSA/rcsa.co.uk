@@ -8,11 +8,11 @@ require "header.php";
 <?php
 $json = json_decode(file_get_contents("data/reports.json"), true);
 if ($json) {
-    foreach ($json as $item => $description) {
+    foreach ($json as $item => $description) { 
         echo "<a href=\"/files/committee_reports/committee_report_$item.pdf\" class=\"list-group-item\">$description</a>";
     }
 } else {
-    echo "<p>Error reading committee report information</p>";
+    echo "<p>Error reading meeting information</p>";
 }
 ?>
 </div>

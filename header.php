@@ -54,7 +54,9 @@ function genMenu($arr) {
   global $actives;
 
   foreach ($arr as $name => $content) {
-    if (is_array($content)) {
+    if (substr($name, 0, 2) === "//") {
+      # pass
+    } else if (is_array($content)) {
       if (in_array ($name, $actives)) {
         echo "<li class=\"dropdown active\">\n";
       } else {

@@ -1,0 +1,14 @@
+Options -Indexes
+Options +FollowSymLinks
+Options +MultiViews
+
+DirectoryIndex index.php
+
+RewriteEngine on
+RewriteRule "(^|/)\." - [F]
+
+RewriteCond %{HTTP_HOST} ^rcsa\.co.uk$ [NC]
+RewriteRule ^(.*)$ http://www.rcsa.co.uk/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} !^www\.rcsa\.co.uk$ [NC]
+RewriteRule ^(.*)$ http://www.rcsa.co.uk/$1 [L,R=301]

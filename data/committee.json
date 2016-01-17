@@ -33,7 +33,7 @@
         "name": "Amy Hall",
         "email": "academic",
         "photo": "academic",
-        "description": ["Lorem ipsum dolor sit ameti, consectetur adipiscing elit. Cras molestie quam ut lorem accumsan ullamcorper. Nulla ac nisl euismod, tristique erat in, bibendum lectus. Fusce posuere, lorem vitae blandit eleifend, elit ex aliquet nisl, quis elementum augue dolor at magna"]
+        "description": ["Hey, my name is Amy and I am this year's Academic Affairs Officer. I am a second year studying engineering. We all know that the academic side of things is quite important and so it is not my role to remind you of this but more to see that this side of things runs smoothly and to represent the Robinson student body in these respects. So if you feel the library isn't providing for you sufficiently or you're being given unsuitable deadlines I'm the one you come to and I'll do my best to take up these issues with the appropriate people and get things changed!"]
     },
     "Welfare Officer": {
         "name": "Gabrielle McGuinness",
@@ -45,7 +45,7 @@
         "name": "Claire Hemingway",
         "email": "catering",
         "photo": "catering",
-        "description": ["My role this year is to make living in college enjoyable for all. I deal with all things Catering - formals and Garden Restaurant meals, and Amenities in college, such as the Laundry room and bike stores. #wewantwaffles #laundryloving... Outside of my life on the Bake Off, I enjoy playing netball, running and have even started college rugby this year. When I'm not playing sport or actually trying to get a degree, I love finding the best coffee (and cake...) spots in Cambridge and working with youth at my church."]
+        "description": ["I'm Claire, a second year Medic and your Catering and Amentiies officer. My role this year is to make living practically in college enjoyable for all. I deal with all things Catering - formals and Garden Restaurant meals, and Amenities in college, such as the Laundry room and bike stores. We started the year with the survey based on your needs, and I'm keen to keep you aware of the changes we're making this year. Hopefully, we'll have more themed formals, waffles at brunch (what Robinson has been waiting for...), easier access to bike facilities - bike pumps, etc, and upgrading of the JCR. If you have any concerns or queries about Catering and Amenities, do let me know and I will try and feed it onto the correct person. (NB: if it's a practical issue, such as a broken hob, please contact maintenance first). I'm looking forward to a fun year, and hope that we can make positive changes to Robinson's facilities."]
     },
     "Sports and Societies Officer": {
         "name": "Edward Butler-Caddle",
@@ -117,6 +117,6 @@
         "name": "Peter Curry",
         "email": "newsletter",
         "photo": "newsletter",
-        "description": ["Lorem ipsum dolor sit ameti, consectetur adipiscing elit. Cras molestie quam ut lorem accumsan ullamcorper. Nulla ac nisl euismod, tristique erat in, bibendum lectus. Fusce posuere, lorem vitae blandit eleifend, elit ex aliquet nisl, quis elementum augue dolor at magna"]
+        "description": [""]
     }
 }
