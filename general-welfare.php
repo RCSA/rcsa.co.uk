@@ -1,23 +1,103 @@
 <?php
 require "header.php";
 ?>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet nec risus at ullamcorper. Sed sodales metus eget nulla ornare vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vel neque ut risus lacinia rutrum nec eu enim. Donec pulvinar justo odio. Aliquam erat volutpat. Fusce id nisl pellentesque, tristique dolor quis, consequat erat. Aliquam erat libero, pharetra tincidunt nibh tempus, dapibus lobortis odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu massa dolor.</p>
+<h2>The welfare committee</h2>
+<p>The welfare committee is comprised of the following members:</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Position</th>
+      <th>Name</th>
+      <th>Email (@rcsa.co.uk)</th>
+    </tr>
+  </thead>
+  <tbody>
+<?php
+$json = json_decode(file_get_contents("data/committee.json"), true);
+if ($json) {
+  $officers = array(
+    "Welfare Officer" => "",
+    "Women's Officer" => "women",
+    "Men's Officer" => "",
+    "Ethnic Minorities Officer" => "ethnic",
+    "Overseas Officer" => "",
+    "LGBT+ Officer" => "lgbt"
+  );
+  foreach ($officers as $thing => $page) {
+    if ($page === "") {
+      echo "<tr><td>$thing</td><td>".$json[$thing]["name"]."</td><td>".$json[$thing]["email"]."</td></tr>";
+    } else {
+      echo "<tr><td><a href=\"$page\">$thing</a></td><td>".$json[$thing]["name"]."</td><td>".$json[$thing]["email"]."</td></tr>";
 
-<p>Duis nunc neque, porta at nibh at, molestie posuere quam. Sed posuere lorem dui, et mattis mi pharetra sit amet. Aliquam erat volutpat. Nulla at rhoncus ipsum. Suspendisse potenti. Donec finibus leo et bibendum varius. Sed quis hendrerit metus. Vestibulum dignissim nibh vitae lorem commodo euismod. Nam pharetra finibus velit, eu iaculis justo tincidunt vitae. Nulla hendrerit porta turpis, sed elementum nisi accumsan non. Quisque elit nisi, consectetur vel mollis ac, rutrum sit amet sapien. Nulla condimentum non justo at ultricies. Curabitur varius quam sem, vel imperdiet ligula facilisis ut.</p>
+    }
+  }
+}
+?>
+  </tbody>
+</table>
 
-<p>Aliquam ullamcorper, libero id eleifend euismod, libero arcu cursus ligula, varius molestie libero ex sit amet mauris. Phasellus gravida, mi sit amet blandit varius, felis dui facilisis quam, vel dictum eros lorem at mi. Sed condimentum sollicitudin ipsum. Vivamus eu ultrices mauris. Etiam sed suscipit urna. Etiam sit amet mattis augue, in pretium nibh. Praesent ipsum libero, placerat ut sodales quis, cursus sed massa. Morbi bibendum volutpat lectus id blandit. Donec non fermentum velit. Proin porttitor dolor vel consectetur varius. Nunc nisi lorem, rhoncus nec est ac, efficitur luctus ex. Nullam gravida accumsan ipsum accumsan aliquet. Etiam a pretium orci. Ut commodo at libero id euismod. Sed lacinia euismod neque et sollicitudin.</p>
+<p>
+<h2>About me</h2>
+<p>I'm Gabrielle McGuinness, the College Welfare Officer which involves many duties, but all to do with maintaining and improving the health and wellbeing of Robinson College students. Aside from this, I am an English second year who is obsessed with all things cultural, clothes, coffee, dogs and feminism.</p>
 
-<p>Integer sit amet quam sit amet dui fermentum cursus. Donec sodales nisl nunc, non facilisis libero hendrerit vel. Nam efficitur tempor sodales. Duis vitae molestie ligula. Nam ultrices, urna vel ornare faucibus, augue lectus cursus elit, at posuere leo orci vitae dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque vestibulum gravida nisi nec laoreet. Integer congue, massa sed feugiat fermentum, tellus ipsum pretium neque, eu dignissim neque mauris eu diam. Aliquam id dolor dolor.</p>
+<p>One of the other key aspects of my job is to be there to support students throughout their degree, which is why I run my weekly drop-in sessions but I can also be emailed to arrange a meeting at any time. Raising awareness of mental health issues is one of my key passions and I will be doing this by organising fortnightly discussion groups headed by the Welfare sub-committee on pertinent issues, such as mental health, LGBT+ rights, racism and tackling gender issues. I want to create an open dialogue within college regarding these issues and hopefully tackle stigma against mental health. I also will be doing this behind the scenes by liaising with senior staff and trying to improve college relations and welfare provisions.</p>
 
-<p>Nulla facilisi. Cras eu molestie nibh. Praesent efficitur nisi sit amet felis dapibus sodales. Ut in purus dignissim, rutrum nunc nec, vehicula urna. Sed imperdiet, arcu at dignissim porttitor, risus arcu posuere arcu, at ultricies diam est eget velit. Nulla at mollis lacus. Praesent et lectus non dui pretium fermentum. Quisque feugiat, magna eget bibendum luctus, lorem justo iaculis risus, sit amet condimentum libero nulla quis arcu. Aenean accumsan fermentum neque, sit amet sagittis ipsum rhoncus a. Donec varius velit quis erat efficitur, et lobortis magna semper. Nullam hendrerit, justo vel iaculis consectetur, leo mi ornare mauris, vel rutrum felis magna a massa. Suspendisse rhoncus pellentesque massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam at iaculis metus. Donec turpis nunc, luctus vel augue a, semper pretium mi. </p>
+<p>For this year, I am the Queen of Condoms. I will be handing out C-Cards in the Cafe for an hour every week, which I will tell you about in my weekly bulletin email. I will also ensure that the Welfare locker is replenished regularly for your emergency needs. If you need any other supplies or sexual health related advice, I am the one to contact.</p>
 
-<p> Sed bibendum auctor purus mattis tincidunt. Phasellus tincidunt iaculis maximus. Curabitur quis ligula et diam pulvinar sollicitudin. Nulla blandit nulla nulla, a maximus nisl dictum vel. Fusce eget ipsum ultricies, dictum dui et, auctor augue. Duis lacus quam, viverra quis turpis eu, dapibus venenatis ante. Maecenas efficitur, nulla convallis pellentesque iaculis, arcu lectus porta magna, quis sagittis nisi eros sit amet magna.</p>
+<p>Since we all tend to feel a little tired or losing motivation by Week 5, I am going to try and change things by running more welfare related events. This will involve cake, music, comedy and general fun that will allow us to remember to relax and enjoy our studies, rather than be defeated by them. Last term we ran a highly successful Christmas party in the JCR, which we hope will become tradition.</p>
 
-<p> Pellentesque sed nisl vitae erat rutrum tincidunt quis eget nulla. Nam vel ornare purus. Fusce luctus, magna id fringilla congue, risus tellus dapibus ligula, ac tincidunt ipsum dui in mauris. Nunc malesuada elit quis odio fermentum, interdum imperdiet arcu cursus. Integer nec mauris dignissim, pulvinar diam et, lobortis ligula. Vestibulum vitae iaculis ligula, et condimentum ipsum. Ut nisl quam, condimentum eget justo eget, lobortis fermentum est.</p>
+<p>Stay positive and I am here to help whenever! Much love x.</p>
 
-<p> Sed cursus tempor leo id volutpat. Cras pellentesque commodo neque nec euismod. Curabitur iaculis est nec lacus tristique vulputate. Donec eget ornare nulla. Etiam rutrum, tellus id rutrum posuere, odio velit accumsan elit, vitae fringilla lorem arcu eu mauris. Vivamus lobortis metus vitae ante egestas, ac viverra eros ultrices. Donec pharetra sapien diam, a luctus arcu rutrum vel. Vivamus varius turpis arcu, at aliquet elit hendrerit a. Sed aliquam ipsum non pretium volutpat. Mauris ut fringilla ligula, eu vehicula ligula. Cras aliquet, leo quis posuere porttitor, velit lectus fringilla est, ut pellentesque felis turpis blandit velit. Sed consequat eleifend leo, nec hendrerit dolor aliquam eu.</p>
+<hr />
+<h2>Resources</h2>
+<h3>In-college resources</h3>
+<ul>
+  <li><b>Gabrielle</b>, <b>Cammy</b>, <b>Dan</b>, <b>Matt</b>, <b>Sneha</b>, <b>Louise</b> form the rest of the welfare team so feel free to contact us at any time. We are all obliged to keep everything you say confidential.</li>
+  <li>Your <b>TUTOR</b>: Your tutor should be there for you on a pastoral level but you can also go to <strong>ANY</strong> other tutor in college. You can also change your tutor at any time if you feel they are not right for you. Tutors are bound to a confidentiality agreement and so you are safe to speak to them. The list can be found on page 43 of the Junior member handbook <a href="http://www.robinson.cam.ac.uk/assets/about/junior_members_handbook.pdf">http://www.robinson.cam.ac.uk/assets/about/junior_members_handbook.pdf</a>.</b></li>
+<li>Although technically meant to stay academic, it can be important to keep you DoS in the loop about certain issues, many students prefer to speak to their DoS regarding some problems, especially if they feel it relates to their subject.</li>
+<li><b>The nurse: Kim Freeman</b> (<a href="mailto:kf340@cam.ac.uk">kf340@cam.ac.uk</a>) who is here 5-6pm for drop-in sessions from Monday-Thursday (4-5 if you book) and 3-4pm on a Friday (4-5pm if you book).</li>
+<li><b>The chaplain, Simon Perry</b>, is often a popular source of support who will happily chat to you regarding your problems. (<a href="mailto:chaplain@robinson.cam.ac.uk">chaplain@robinson.cam.ac.uk</a>)</li>
+</ul>
+<h3>Outside college resources</h3>
+<ul>
+  <li><b>Your doctor</b>: you can book an appointment with your GP if you wish to talk with a professional for guidance</li>
+  <li><b>UCS (University Counselling Service)</b>: This is for <strong>EVERYONE</strong> if they need it, and there's nothing wrong with that if you feel you want extra, professional support. It is TOTALLY free. This website has some self-help guides and further info about the services: <a href="http://www.counselling.cam.ac.uk/">http://www.counselling.cam.ac.uk/</a> and here is the online form for counselling: <a href="https://forms.counselling.cam.ac.uk/titanium/wcmenu.aspx">https://forms.counselling.cam.ac.uk/titanium/wcmenu.aspx</a></li>
+  <li><b>Students' Unions' Advice Service</b>: This is a free, confidential and independent support service for all Cambridge students, and part run by professional advisors and CUSU sabbatical reps. They are open Monday - Friday, 9am - 5pm all year.
 
-<p> Quisque aliquet venenatis metus eu vulputate. Nullam lobortis odio in eros euismod, non aliquet nulla cursus. Maecenas sed odio eu ante condimentum sagittis vitae ut felis. Ut tempor mauris et laoreet efficitur. Mauris vitae varius felis. Curabitur finibus arcu a magna commodo consectetur. Morbi pharetra, ex vitae rhoncus euismod, urna dui laoreet lorem, ac tincidunt turpis justo at velit. Integer vitae maximus metus. Mauris nec felis sit amet justo imperdiet pulvinar. Mauris et justo eu mauris sodales rhoncus. Nulla ligula ligula, elementum et justo sit amet, ornare feugiat eros. Vestibulum porttitor leo sapien, quis consectetur augue finibus efficitur. Nam nec ligula non erat blandit commodo ac sit amet lectus.</p>
+  <ul>
+    <li>Where: 17 Mill Lane</li>
+    <li>When: Tuesdays and Thursdays from 12-2pm are the DROP-INs</li>
+    <li>Email: at <a href="mailto:advice@studentadvice.cam.ac.uk">advice@studentadvice.cam.ac.uk</a> and they will reply in 48 hour.</li>
+    <li>Phone Number: 01223 746999 for advice or to book an appointment.</li>
+    <li>Website: <a href="www.studentadvice.cam.ac.uk">www.studentadvice.cam.ac.uk</a></li>
+  </ul>
+  </li>
+  <li><b>Linkline</b>: Between 7pm and 7am of EVERY NIGHT in the week during Cambridge University full-term to talk about whatever is on your mind. It is an incredible support system for those moments in the evening when you realise you are down or stressed etc.
+  <ul>
+    <li>Phone number: 01223 744444</li>
+    <li>There is also now an instant messaging service online, at <a href="www.linkline.org.uk">www.linkline.org.uk</a></li>
+  </ul>
+  </li>
+</ul>
+<h3>Cambridge-based Facebook groups</h3>
+<ul>
+  <li>CUSU LGBT+: <a href="https://www.facebook.com/groups/2202197406/"></a></li>
+  <li>Cambridge Students' Disability Community: <a href="https://www.facebook.com/groups/101125766899899/">https://www.facebook.com/groups/101125766899899/</a></li>
+  <li>The Disabled Students' Campaign: <a href="https://www.facebook.com/groups/363775395562/?fref=ts">https://www.facebook.com/groups/363775395562/?fref=ts</a></li>
+  <li>Cambridge Ask-A-Student: <a href="https://www.facebook.com/groups/200749143308432/">https://www.facebook.com/groups/200749143308432/</a></li>
+  <li>Fle (BME Women's Network, for self-identifying women of Colour only) <a href="https://www.facebook.com/groups/359049374186552/?fref=nf">https://www.facebook.com/groups/359049374186552/?fref=nf</a></li>
+</ul>
+<h3>Other contacts</h3>
+<ul>
+<li>Poppy Ellis Logan: (CUSU/GU Welfare &amp; Rights Officer and Acting President of the Graduate Union): <a href="mailto:welfare@cusu.cam.ac.uk">welfare@cusu.cam.ac.uk</a></li>
+</ul>
+<h3>Useful links</h3>
+<ul>
+  <li>NHS advice: This is a good first step as it offers various options to go down and lots of advice. <a href="http://www.nhs.uk/conditions/stress-anxiety-depression/pages/mental-health-helplines.aspx">http://www.nhs.uk/conditions/stress-anxiety-depression/pages/mental-health-helplines.aspx</a></li>
+  <li>Student Minds: An amazing student mental health charity with an incredible team working here in Cambridge too. Here is the website: <a href="http://www.studentminds.org.uk/">http://www.studentminds.org.uk/</a> and the Cambridge group’s facebook page: <a href="https://www.facebook.com/SMCMentalWealth/?fref=ts">https://www.facebook.com/SMCMentalWealth/?fref=ts</a></li>
+  <li>Time to Change are an incredible charity, keen to end mental health discrimination and with lots of resources on their website. <a href="http://www.time-to-change.org.uk/">http://www.time-to-change.org.uk/</a></li>
+  <li>Mind not only have lots available on their website to help you out, they also have a phoneline open Monday-Friday 9am to 6pm at 0300 123 3393. <a href="http://www.mind.org.uk/">http://www.mind.org.uk/</a></li>
+  <li>The University of Cambridge website is worth checking over to see what Uni-wide guidelines are regarding mental health. <a href="http://www.cambridgestudents.cam.ac.uk/welfare-and-wellbeing">http://www.cambridgestudents.cam.ac.uk/welfare-and-wellbeing<a/></li>
+</ul>
 
-<p> Nunc quis sem et orci accumsan varius. Vestibulum mi libero, varius eu lectus non, convallis auctor justo. Sed sit amet accumsan erat. Aliquam volutpat mauris ac mi lobortis dapibus. Maecenas in lacinia enim, eget elementum tellus. Aliquam ligula nibh, interdum a pharetra a, aliquet non ligula. Praesent dignissim facilisis lacinia. Donec quam velit, posuere tincidunt sem posuere, consequat pellentesque metus. In et ligula a elit consectetur luctus eget in velit. Aliquam lobortis dapibus arcu sit amet hendrerit. Sed dapibus lobortis cursus. Aenean sed vulputate quam, nec molestie nibh. Vivamus ac felis risus. Sed in feugiat elit, in porta turpis. </p>
 <?php require "footer.php"?>

@@ -7,7 +7,7 @@
         "Committee reports": "reports"
     },
     "Welfare": {
-        "//General welfare": "general-welfare",
+        "General welfare": "general-welfare",
         "//Men welfare": "men",
         "Women welfare": "women",
         "Ethnic minorities": "ethnic",
@@ -18,7 +18,7 @@
     "Prospective students": {
         "Alternative prospectus": "alternative",
         "Subject reps": "subject",
-        "Access events": "access"
+        "Access": "access"
     }
 }
 
