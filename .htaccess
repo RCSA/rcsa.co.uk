@@ -4,6 +4,9 @@ Options +MultiViews
 
 DirectoryIndex index.php
 
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+
 RewriteEngine on
 RewriteRule "(^|/)\." - [F]
 

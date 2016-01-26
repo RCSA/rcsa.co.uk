@@ -21,8 +21,10 @@ function searchItem($arr) {
     return array();
 }
 $result = searchItem($PAGES);
-$actives = $result[0];
-$title = $result[1];
+if ($result) {
+    $actives = $result[0];
+    $title = $result[1];
+}
 ?>
 <!DOCTYPE HTML>
 <html>
