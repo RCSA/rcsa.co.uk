@@ -86,6 +86,7 @@ if ($json) {
   <li>The Disabled Students' Campaign: <a href="https://www.facebook.com/groups/363775395562/?fref=ts">https://www.facebook.com/groups/363775395562/?fref=ts</a></li>
   <li>Cambridge Ask-A-Student: <a href="https://www.facebook.com/groups/200749143308432/">https://www.facebook.com/groups/200749143308432/</a></li>
   <li>Fly (BME Women's Network, for self-identifying women of Colour only) <a href="https://www.facebook.com/groups/359049374186552/?fref=nf">https://www.facebook.com/groups/359049374186552/?fref=nf</a></li>
+  <li>Soar (BME Men's Network) <a href="https://www.facebook.com/groups/ThisIsSoar/?fref=ts">https://www.facebook.com/groups/ThisIsSoar/?fref=ts</a></li>
 </ul>
 <h3>Other contacts</h3>
 <ul>
