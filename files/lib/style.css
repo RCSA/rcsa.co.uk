@@ -1,0 +1,97 @@
+/** Override bootstrap themes */
+body > .container {
+  padding-top: 60px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #fee69c;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #fdc107;
+  outline: 0;
+}
+
+.navbar-default {
+  background-color: white;
+  border-bottom: thin solid #fdc107;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-text,
+.navbar-default .navbar-nav > li > a {
+  color: #5e5e5e;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #5e5e5e;
+  background-color: #fee69c;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #fdc107;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fee69c;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fdc107;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #fee69c;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: #fee69c;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #fdc107;
+  }
+}
+
+.navbar-brand img {
+  height: 45px;
+  margin: -2px 5px 0 2px;
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  .navbar-text {
+    padding: 0 15px;
+  }
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #FFF9E6;
+}
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #FFFCF3;
+}
+
+h1.error-title {
+  color: red;
+}
