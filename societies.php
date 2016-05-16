@@ -18,12 +18,37 @@ require "header.php";
   <tbody>
 <?php
 $json = json_decode(file_get_contents("data/societies.json"), true);
+$count = 0;
 if ($json) {
     $first = key($json);
-    foreach ($json as $soc => $contacts) { 
+    foreach ($json as $soc => $details) { 
       $soc = str_replace("&", "&amp;", $soc);
-      foreach ($contacts as $crsid => $name) {
-        echo "<tr><td>$soc</td><td>$name</td><td>$crsid</td>";
+      if (!empty($details["details"])) {
+        echo <<<EOT
+<div id='soc-$count-description' class="modal fade" role="dialog" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">$soc</h4>
+      </div>
+      <div class="modal-body">
+EOT;
+        include "files/societies/".$details["details"].".html";
+        echo <<<EOT
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+EOT;
+        $soc .= "&nbsp;<a href='#soc-$count-description' data-toggle='modal' data-keyboard='true' class='glyphicon glyphicon-info-sign'></a>";
+        $count ++;
+      }
+      foreach ($details["contacts"] as $crsid => $name) {
+        echo "<tr><td>$soc</td><td>$name</td><td>$crsid</td></tr>";
         $soc = "";
       }
     }

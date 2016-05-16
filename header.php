@@ -30,11 +30,12 @@ if ($result) {
 <html>
   <head>
     <title><?php echo $title?> | Robinson College Students' Association</title>
-    <link rel="stylesheet" href="/files/lib/bootstrap.min.css">
-    <link rel="stylesheet" href="/files/lib/style.css">
+    <link rel="stylesheet" href="/files/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/files/lib/css/style.css">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="/files/lib/jquery.min.js"></script>
-    <script src="/files/lib/bootstrap.min.js"></script>
+    <script src="/files/lib/js/jquery.min.js"></script>
+    <script src="/files/lib/js/bootstrap.min.js"></script>
   </head>
 
   <body>
