@@ -95,3 +95,34 @@ body > .container {
 h1.error-title {
   color: red;
 }
+
+blockquote footer {
+  text-align: right;
+}
+
+img.float-right-responsive {
+  float: right;
+  width: 33%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+@media (max-width: 767px) {
+  img.float-right-responsive {
+    float: none;
+    width: 100%;
+  }
+}
+
+img.float-left-responsive {
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  width: 33%;
+}
+
+@media (max-width: 767px) {
+  img.float-left-responsive {
+    float: none;
+    width: 100%;
+  }
+}
