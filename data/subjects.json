@@ -1,67 +1,78 @@
 {
+  "Architecture": {
+      "mc957": "M. Croghan"
+  },
   "Asian and Middle Eastern Studies": {
-      "ans57": "Anna Spaniol",
-      "jhh46": "Gary He"
+      "mr675": "Maud Rowell"
   },
   "Classics": {
-      "hgwg2": "Hugh Granger"
+      "rah201": "Rebekah Hornsby"
   },
   "Computer Science": {
-      "dk503": "Devan Kuleindiren",
-      "amd96": "Alex Dalgleish"
+      "mp781": "Miteyan Patel",
+      "gla23": "George Andersen"
   },
   "Economics": {
-      "kt426": "Karl Thompson"
+      "bt332": "Bavni Tulsiani"
   },
   "Engineering": {
-      "sw690": "Sarah Wolman"
+      "dada2": "Dami Adebayo",
+      "je369": "Joshua Efiong"
   },
   "English": {
-      "mf554": "Maud Foxley",
-      "jsm81": "Jake Morris"
+      "rmg57": "Becky Guthrie",
+      "cs845": "Cat Somerville"
   },
   "Geography": {
-      "hsc31": "Holly Carter"
+      "ll481": "Lucy Levy",
+      "lad46": "Luke Dell"
   },
   "History": {
-      "hn288": "Harry Normanton",
-      "ejf51": "Emily Fishman"
+      "ljp59": "Laura Prince",
+      "efs27": "Esme Smith"
   },
   "Human, Social and Political Sciences": {
-      "mk814": "Martha Krish",
-      "mep45": "Michael Palmer"
+      "nfb28": "Niamh Buckingham"
   },
   "Land Economy": {
-      "hvb27": "Hoang Van Bui"
+      "hvb27": "Van Bui"
   },
   "Law": {
-      "ch677": "Carine Ha"
+      "wkg23": "Khan Goh",
+      "emch2": "Elizabeth Hartley"
+  },
+  "Linguistics": {
+      "esaa2": "Emma Altmann-Richer"
   },
   "Mathematics": {
-      "ljc60": "Laurence Cooper"
+      "sjk84": "Samuel Kriby"
   },
   "Medicine": {
-      "lcm55": "Cammy Mitchell",
-      "thwf2": "Tiffany Fung"
+      "mp777": "Matthew Peniket",
+      "sb2030": "Sneha Barai"
+  },
+  "Modern and Medieval Languages": {
+      "eaw69": "Ellen Weaver"
   },
   "Music": {
-      "zf234": "Zhuan Faraj"
+      "ag883": "Anthony Gray",
+      "djr60": "David Reavley"
   },
   "Natrual Sciences (Biological)": {
-      "rh606": "Robyn Hockley",
-      "prl40": "Patrick Lundgren"
+      "lj332": "Lillian Judd",
+      "cv312": "Carlos Val Mas"
   },
   "Natrual Sciences (Physical)": {
-      "wjps2": "Will Scott"
+      "hs606": "Holly Smith",
+      "tp408": "Tom Pollard"
   },
   "Psychological and Behavioural Sciences": {
       "cd542": "Charlotte Diss"
   },
   "Theology and Religious Studies": {
-      "bs547": "Beth Soman",
-      "hc433": "Henry Constable"
+      "bs547": "Beth Soman"
   },
   "Veterinary Medicine": {
-      "ea406": "Emily Atkinson"
+     "ck499": "Catherine Kirk"
   }
 }
