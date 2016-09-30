@@ -1,3 +1,4 @@
+
 Options -Indexes
 Options +FollowSymLinks
 Options +MultiViews
@@ -8,6 +9,7 @@ ErrorDocument 404 /404.php
 ErrorDocument 403 /404.php
 
 RewriteEngine on
+
 RewriteRule "(^|/)\." - [F]
 
 RewriteCond %{HTTP_HOST} ^rcsa\.co.uk$ [NC]
